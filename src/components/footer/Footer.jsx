@@ -2,12 +2,16 @@ import React from "react"
 import { homeData } from "../../dummyData"
 import "./footer.css"
 
+
 const Footer = () => {
   return (
     <>
       <footer>
         <div className='container'>
           <div className='box'>
+            <div className="text-center">
+                  <h1>Ahmed samir this work</h1>
+            </div>
             <ul className='flex'>
               <li>Terms of Use</li>
               <li>Privacy-Policy</li>
